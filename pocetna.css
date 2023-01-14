@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Roditelj{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0);
+    box-shadow: 0px 2px 10px gray;
+    align-items: center;
+}
+.logo p{
+    margin-top: -20px;
+}
+.meki{
+    font-size: 16px;
+    margin-top: -20px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: rgba(74, 74, 56, 0.601);
+    transition: 0.5s;
+    text-decoration: border;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+
+.slika1{
+    margin: 5px;
+}
+   
+    /* button */
+.button1{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: rgba(101, 101, 163, 0.587);
+    border: none;
+    font-size: 15px;
+    
+}
+.button1:hover{
+    background-color: aqua;
+    
+}
+   
+    /* slika 2  */
+.roditelj2{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: grey;
+}
+.text-p{
+    font-size: 15px;
+}
+.slika2-2{
+    margin: 0px;
+    border: 1px solid;
+    width: 450px;
+    height: auto;
+    border: none;
+    text-align: center;
+}
+.slika2-2:hover{
+    margin-top: -10px;
+    transition: 1.2s;
+    box-shadow: 0px 0px 10px  grey;
+}
+.roditelj .slika2-2 h1{
+    text-shadow: 1px 1px blue;
+}
+
+/* 3 slika */
+.slika3-3{
+   margin: 0px;
+    border: 1px solid;
+    width: 450px;
+    height: auto;
+    border: none;
+    text-align: center;
+}
+.slika3-3:hover{
+    margin-top: -10px;
+    transition: 1.2s;
+    box-shadow: 0px 0px 10px grey;
+}  
+
+/* slika 4 */
+.slika4-4{
+    margin: 0px;
+    border: 1px solid;
+    width: 450px;
+    height: 500px;
+    border: none;
+    text-align: center;
+}
+.slika4-4:hover{
+    margin-top: -10px;
+    transition: 1.2s;
+    box-shadow: 0px 0px 10px grey;
+}
+
+/* roditelj 3 */
+.roditelj3{
+    text-align: center;
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+}
+
+    /*roditelj 4  */
+.proba:hover{
+    opacity: 0.8;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* button dugme */
+.button2{
+    padding: 15px;
+    width: 350px;
+    background-color: blue;
+    color: white;
+    border: none;
+    
+}
+.button2:hover{
+    background-color: black;
+    transition: 0.9s;
+}
+    /* kraj  */
+.end{
+    background-color: #3598dc;   
+    display: flex;
+    justify-content: space-around;  
+}
+.levo{
+    border: 1px solid;
+    width: 400px;
+    height: 700px;
+    border: none;
+    font-size: 15px;
+    margin-top: 50px;
+    position: relative;
+    left: 150px;
+}
+.end .levo label a{
+    color: white;
+}
+.end .levo label a:hover{
+    color: #1e73be;
+}
+.end div{
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+.end .usluge{
+   border: none;
+}
+.end .ostale{
+    padding-left: 30px;
+    margin-top: -20px;
+}
+.end .colud{
+    padding-left: 30px;
+}
+.end .o-nama{
+    border: none;
+}
+
+    /* Sredina  */
+.sredina{
+    border: 1px solid;
+    width: 350px;
+    border: none;
+    font-size: 15px;
+    margin-top: 45px;
+}
+    /* Desno */
+.desno{
+    border: 1px solid;
+    width: 300px;
+    border: none;
+    margin-top: 45px;
+    position: relative;
+    right: 150px;
+}
+.desno .gmail a{
+    color: white;
+    font-size: 25px;
+}
+.desno .gmail a:hover{
+    color: #1e73be;
+}
+
+.desno label{
+    font-size: 25px;
+}
+
+.desno .tell a{
+    font-size: 20px;
+    color: white;
+}
+.desno .tell a:hover{
+    color: #1e73be;
+}
+
+.desno input{
+    width: 200px;
+    padding: 10px;
+}
+.desno .button3{
+    width: 150px;
+    padding: 10px;
+    background-color: #1e73be;
+    border: none;
+    border-radius: 5px;
+}
+.desno .button3:hover{
+    background-color: black;
+    transition: 0.9s;
+}
+
+.desno .button3 a{
+    color: white;
+}
+    
+    /* zadnji deo */
+.zadnji-deo{
+    height: 40px;
+}
+.deo{
+    border: 1px solid;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 245px;
+    border: none;
+}
+.deo a{
+    text-decoration: none;
+    font-size: 10px;
+}
+.deo a p:hover{
+    color: #3598dc;
+}
+.deo p{
+    color: grey;
+    font-size: 15px;
+}

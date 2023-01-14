@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Roditelj{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0);
+    box-shadow: 0px 2px 10px gray;
+    align-items: center;
+}
+.logo p{
+    margin-top: -20px;
+}
+.meki{
+    font-size: 16px;
+}
+.naslovi li{
+    list-style: none;
+    display: inline;
+}
+.naslovi li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+.naslovi li a:hover{
+    color: rgba(74, 74, 56, 0.601);
+    transition: 0.5s;
+    text-decoration: border;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+} 
+
+/* glavni div */
+.glavni{
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+/* levi div */
+.levi{
+    border: 1px solid;
+    width: 25%;
+    height: 1150px;
+    border: none;
+}
+.podnaslov{
+    font-size: 35px;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+.liste li{
+    list-style: none;
+    font-size: 18px;
+    padding: 3px;
+}
+.liste li a{
+    text-decoration: none;
+}
+.liste li a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #1e73be;
+}
+
+.liste2{
+    margin-left: 35px;
+}
+.liste2 li{
+    list-style: none;
+    font-size: 18px;
+    padding: 2px;
+}
+.liste2 li a{
+    text-decoration: none;
+}
+.liste2 li a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #1e73be;
+}
+
+/* slika */
+.slika{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.slika:hover{
+    opacity: 0.8;
+  
+}
+.paragraf{
+    font-size: 15px;
+    margin-left: 40px;
+}
+.pretraga input{
+    padding: 10px;
+    box-shadow: 0px 0px 10px grey;
+    border: none;
+}
+.pretraga button{
+    padding: 10px;
+    box-shadow: 0px 0px 10px grey;
+    margin-left: -5px;
+    background-color:#1e73be;
+    color: white;
+    border: none;
+}
+
+/* desni div */
+.desni{
+    border: 1px solid;
+    width: 45%;
+    height: 1150px;
+    border: none;
+}
+.redizajn{
+    font-size: 40px;
+}
+.paragraf2{
+    font-size: 18px;
+}
+.paragraf3{
+    font-size: 20px;
+}
+.paragraf4{
+    margin-left: 25px;
+    font-size: 18px;
+}
+.slikice{
+    display: flex;
+    margin-left: 20px;
+}
+
+   /* button dugmad */
+.share{
+    margin-left: -5px;
+}
+.share .button1{
+    width: 80px;
+    border: 1px solid black;
+    border-top: 3px solid blue;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.share .button1:hover{
+    border: 1px solid;
+    background-color: rgb(166, 158, 158);
+    transition: 0.5s;
+}
+.share .button2{
+    width: 80px;
+    border: 1px solid;
+    border-top: 3px solid #1e73be;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.share .button2:hover{
+    border: 1px solid;
+    background-color: rgb(166, 158, 158);
+    transition: 0.5s;
+}
+.share .button3{
+    width: 80px;
+    border: 1px solid;
+    border-top: 3px solid rgb(99, 99, 128);
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.share .button3:hover{
+    border: 1px solid;
+    background-color: rgb(166, 158, 158);
+    transition: 0.5s;
+}
+.share .button4{
+    width: 80px;
+    border: 1px solid;
+    border-top: 3px solid  grey;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.share .button4:hover{
+    border: 1px solid;
+    background-color: rgb(166, 158, 158);
+    transition: 0.5s;
+}
+.share button a{
+    text-decoration: none;
+    color: rgb(65, 46, 46);
+    font-size: 15px;
+}
+
+   /* desna strana */
+   .kontejner{
+    margin-left: 30px;
+}
+.kontejner h3{
+    font-size: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: #1e73be;
+}
+.kontejner .liste a{
+    text-decoration: none;
+}
+.kontejner .liste li{
+    display: block;
+    padding: 5px;
+    color: #1e73be;
+}
+.kontejner .liste li:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #1e73be;
+}
+.kontejner .lista1 a{
+   text-decoration: none;
+}
+.kontejner .lista1 a li{
+    display: block;
+    padding: 5px;
+    color: #1e73be;
+    margin-left: 25px;
+}
+.kontejner .lista1 a li:hover{
+    text-decoration-line: underline;
+    text-decoration-color: #1e73be;
+}
+.img1:hover{
+    opacity: 0.8;
+}
+
+
+    /* kraj  */
+.zadnji-deo{
+    border: 1px solid;
+    height: 40px;
+    border: none;
+}
+.end{
+    background-color: #3598dc;   
+    display: flex;
+    justify-content: space-around;  
+}
+.levo{
+    border: 1px solid;
+    width: 400px;
+    border: none;
+    font-size: 15px;
+    margin-top: 50px;
+    position: relative;
+    left: 150px;
+    height: 750px;
+}
+.end .levo label a{
+    color: white;
+    text-decoration: none;
+}
+.end .levo label a:hover{
+    color: #1e73be;
+}
+.end div{
+    border-bottom: 1px solid;
+    padding: 5px;
+}
+.end .usluge{
+   border: none;
+}
+.end .ostale{
+    padding-left: 30px;
+    margin-top: -20px;
+}
+.end .colud{
+    padding-left: 30px;
+}
+.end .o-nama{
+    border: none;
+}
+
+    /* Sredina  */
+.sredina{
+    border: 1px solid;
+    width: 350px;
+    border: none;
+    font-size: 15px;
+    margin-top: 45px;
+}
+
+    /* Desno */
+.desno{
+    border: 1px solid;
+    width: 300px;
+    border: none;
+    margin-top: 45px;
+    position: relative;
+    right: 150px;
+}
+.desno .gmail a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.desno .gmail a:hover{
+    color: #1e73be;
+}
+
+.desno label{
+    font-size: 25px;
+}
+
+.desno .tell a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.desno .tell a:hover{
+    color: #1e73be;
+}
+.desno input{
+    width: 200px;
+    padding: 10px;
+}
+.desno .button3{
+    width: 150px;
+    padding: 10px;
+    background-color: #1e73be;
+    border: none;
+    border-radius: 5px;
+}
+.desno .button3:hover{
+    background-color: black;
+    transition: 0.9s;
+}
+.desno .button3 a{
+    color: white;
+    text-decoration: none;
+}
+
+    /* zadnji deo */
+.deo{
+    border: 1px solid;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 245px;
+    border: none;
+}
+.deo a{
+    text-decoration: none;
+    font-size: 10px;
+}
+.deo a p:hover{
+    color: #3598dc;     
+}
+.deo p{
+    color: grey;
+    font-size: 15px;
+}
+

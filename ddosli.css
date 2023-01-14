@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+.glavni{
+    border: 1px solid;
+    width: 60%;
+    height: 1300px;
+    margin: auto;
+    margin-top: 45px;
+    box-shadow: 0px 0px 30px greenyellow;
+    background-color: black;
+}
+.slika{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+img{
+    width: 250px;
+    height: 450px;
+    box-shadow: 0px 0px 20px greenyellow;
+}
+
+/* text */
+.dobrodoslica{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* inputi */
+.forma{
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+.ime{
+    display: flex;
+}
+label{
+    color: white;
+    font-size: 25px;
+}
+.ime1{
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+}
+.ime1:hover{
+    box-shadow: 0px 0px 20px greenyellow;
+    transition: 0.5s;
+}
+.prezime1{
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.prezime1:hover{
+    box-shadow: 0px 0px 20px greenyellow;
+    transition: 0.5s;
+}
+.prezime{
+    margin-left: 40px;
+}
+.pol{
+    margin-left: 90px;
+}
+
+a:hover{
+    background-color: greenyellow;
+    box-shadow: 0px 0px 10px greenyellow;
+    border: none;
+    transition: 0.2s;
+}
+.dugme a{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
