@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Roditelj{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0);
+    box-shadow: 0px 2px 10px gray;
+    align-items: center;
+}
+.logo .meki{
+    margin-top: -20px;
+    margin-left: 65px;
+}
+.meki{
+    font-size: 16px;
+}   
+ul li{
+    list-style: none;
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: rgba(74, 74, 56, 0.601);
+    transition: 0.5s;
+    text-decoration: border;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    transition: 1s;
+}
+
+.glavni{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+/* sredina */
+.glavni{
+    display: flex;
+}
+.levi{
+    border: 1px solid;
+    width: 50%;
+    height: 2500px;
+}
+h1{
+    font-size: 35px;
+}
+.paragraf1{
+    font-size: 22px;
+}
+.paragraf2{
+    font-size: 18px;
+    margin-left: 18px;
+}
+.divTekst{
+    display: flex;
+}
+.ddivTekst{
+    margin-left: 180px;
+}
+.paragraf3{
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+
+.desni{
+    border: 1px solid;
+    width: 30%;
+    height: 2500px;
+}
+
+
